@@ -1,0 +1,22 @@
+:root{
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --gris-oscuro: #666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a;
+}
+
+p{
+    font-family: Roboto;
+    font-size:12px;
+}
+h2{
+    font-size:24px;
+}
+.precio {
+    font-size:18px;
+}
+.descuentos-descripciones {
+    font-size:16px;
+}
