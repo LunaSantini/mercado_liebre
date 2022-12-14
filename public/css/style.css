@@ -15,17 +15,9 @@ header {
     margin-bottom:0;
 }
 
-.logo-mercado-liebre {
-    margin: 10px;
-    width: 150px;
-    flex:50%;
-}
-
-.logo-busqueda {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
+.logo-barra-cuotas {
+    display:flex;
+    flex-wrap: wrap;
 }
 
 p.compra-cuotas {
@@ -76,6 +68,8 @@ ul li a{
 h2{
     font-family: "Roboto";
     font-size:24px;
+    width:100%;
+    margin:10px;
 }
 
 div.burger-menu i{
@@ -101,7 +95,6 @@ div.burger-menu {
 main {
     background-color: var(--gris-claro);
     text-align: center;
-    margin:auto;
     background-position: center;
     box-sizing: border-box;
     }
@@ -126,44 +119,32 @@ div.truck i{
     font-size:16px;
     border-radius: 25%;
     text-align: left;
-    margin-bottom: -10px;
+    margin-bottom: -15px;
     margin-right: 20px;
     margin-top: -15px;
     background-position: left;
     box-sizing: border-box;
 }
 
-section {
-    margin:auto;
+.articulo {
     margin-bottom: 10px;
-    padding:5px;
     background-position: center;
     width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-}
-
-section article {
-    margin:auto;
-    margin-bottom: 15px;
-    padding:5px;
-    background-position: center;
-    width: 100%;
-    max-width: 90%;
+    max-width: 80%;
     background-color: white;
-    box-sizing: border-box;
 }
 
-section.articulos {
+.ult-visita {
     display: flex;
     flex-wrap: wrap;
-    width:90%;
     justify-content:space-around;
-    flex-direction: row;
-    margin:auto;
-    box-sizing: border-box;
 }
 
+.ofertas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
 section.articulos{
     width:90%;
 }
@@ -189,19 +170,14 @@ section.articulos{
     box-sizing: border-box;
 }
 
-article div.descripcion-total {
-    margin:auto;
-    width:100%;
-    padding: 1px;
-    border-top: 1px solid var(--gris-claro);
-    box-sizing: border-box
-}
-
-span.precio-descuento {
+.precio-descuento {
     display:flex;
+    padding: 1px;
+    margin:auto;
     align-items: center;
     flex-direction: row;
     width:100%;
+    border-top: 1px solid var(--gris-claro);
     box-sizing: border-box;
 }
 
@@ -231,40 +207,62 @@ h5 {
 
 /* TABLET */
 
-@media (min-width: 380px) and (max-width: 768px) {
+@media (min-width: 600px) and (max-width: 1040px) {
+
+    .logo-mercado-liebre{
+        width:50%;
+    }
+
+    .barra-busqueda {
+        width:50%;
+    }
 
     .descripciones {
         display: none;
     }    
     
     .site {
-        display:none;
+        display:flex;
     }
-    
+  
     .login {
-        display: none;
+        display: flex;
     }
 
-    section.articulos {
-        width:40%;
+    div.burger-menu i{
+        display:none;
+        background-color: var(--amarillo);
     }
 
     h2 {
         text-align: left;
+        width:100%;
     }
+
+    .articulo {
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+        width: 40%;
+    }   
 }
    
 
 /* DESKTOP */
 
-@media (min-width: 769px) {
+@media (min-width: 1040px) {
+
+.site-login {
+    display: flex;
+}
+
+
 
 .descripciones {
     display: block;
 }
 
-article {
+.articulo {
     box-shadow: 0px 0px 10px rgb(100,100,100);
+    width:20%;
 }   
 
 div.burger-menu i{
@@ -273,8 +271,4 @@ div.burger-menu i{
 }
 
 
-section.articulos{
-    flex-wrap: wrap;
-    width:20%;
-}
 }

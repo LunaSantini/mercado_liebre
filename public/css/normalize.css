@@ -10,20 +10,4 @@ img {
     box-sizing: border-box;
 }
 
-main {
-    width: 100%;
-    max-width: 100%;
-    margin:50%;
-    box-sizing: border-box;
-}
 
-section {
-    width: 100%;
-    max-width: 90%;
-    box-sizing: border-box;
-    background-position: center;
-    box-sizing: border-box;
-}
-article {
-    margin-bottom: 10px;
-}
