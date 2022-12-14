@@ -4,13 +4,13 @@
   },
   "name": "mercadoliebre",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "devDependencies": {},
   "scripts": {
     "start": "node src/app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Luna Santini",
   "license": "ISC",
   "description": ""
 }
