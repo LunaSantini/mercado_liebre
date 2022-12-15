@@ -20,6 +20,7 @@ header {
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-around;
+    align-items: center;
 }
 
 div.logo-mercado-liebre{
@@ -314,7 +315,7 @@ h5 {
         width: 50%;
         justify-content: space-between;
     }
-    
+
 .descripciones {
     display: block;
 }
