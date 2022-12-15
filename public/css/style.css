@@ -18,15 +18,21 @@ header {
 .logo-barra-cuotas {
     display:flex;
     flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+div.logo-mercado-liebre{
+    width: 50%;
+}
+
+nav.barra-busqueda {
+    width:50%;
 }
 
 p.compra-cuotas {
     text-align: center;
     margin:auto;
-}
-nav.barra-busqueda {
-    margin: 10px;
-    flex:50%;
 }
 
 input[type="submit"]{
@@ -209,24 +215,43 @@ h5 {
 
 @media (min-width: 600px) and (max-width: 1040px) {
 
-    .logo-mercado-liebre{
-        width:50%;
+    .logo-barra-cuotas{
+        align-items: center;
     }
 
-    .barra-busqueda {
-        width:50%;
+    div.logo-mercado-liebre{
+        width:20%;
+    }
+
+    nav.barra-busqueda {
+        width:20%;
+    }
+
+    nav.compra-cuotas {
+        width:20%;
     }
 
     .descripciones {
         display: none;
     }    
-    
-    .site {
-        display:flex;
-    }
-  
-    .login {
+
+    nav.site-login {
         display: flex;
+        flex-wrap: wrap;
+    }
+    
+    ul.site {
+        display: flex;
+        flex-wrap: wrap;
+        width:50%;
+        justify-content: space-between;
+    }
+
+    ul.login{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        justify-content: space-between;
     }
 
     div.burger-menu i{
@@ -250,7 +275,20 @@ h5 {
 
 @media (min-width: 1040px) {
 
-.site-login {
+
+    div.logo-mercado-liebre {
+        width:20%;
+    }
+
+    nav.barra-busqueda {
+        width: 20%;
+    }
+
+    nav.compra-cuotas {
+        width:20%;
+    }
+
+    .site-login {
     display: flex;
 }
 
