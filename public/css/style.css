@@ -288,9 +288,24 @@ h5 {
         width:20%;
     }
 
-    .site-login {
-    display: flex;
-}
+    nav.site-login {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    ul.site {
+        display: flex;
+        flex-wrap: wrap;
+        width:50%;
+        justify-content: space-between;
+    }
+
+    ul.login{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        justify-content: space-between;
+    }
 
 
 
