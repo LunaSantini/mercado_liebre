@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href=/css/style.css>
+    <!--Links de Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!--Links de Iconos-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    rel="stylesheet" />
+    <!--Etiqueta viewport-->
+</head>
+<body>
+    <header>
+        <section class="logo-barra-cuotas">
+            <div class = logo-mercado-liebre>
+                <img class = logo-mercado-liebre src="images/logo-mercado-liebre.svg"alt="Logo mercado liebre">
+            </div>
+                <nav class="barra-busqueda">
+            <input type="search" name="busqueda-articulos" placeholder="Buscar productos, marcas">
+            <button><div><i class="fas fa-search"></i></div></button>
+        </nav>
+        <nav class="compra-cuotas">
+        <p  class="compra-cuotas"><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</p>
+        </nav>
+        </section>
+        <nav class="site-login">
+            <ul class="site" type="none">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayudar</a></li>
+            </ul>
+            <ul class="login" type="none">
+                <li><a href="/register">Creá tu cuenta<i class="far fa-id-card crea-tu-cuenta"></i></a></li>
+                <li><a href="#">Ingresá <i class="fas fa-sign-in-alt ingresa"></i></a></li>
+                <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+            <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        </nav>
+    </header>
+    <main>
+        <h2>Creá tu cuenta</h2>
+            <form action="#"  method="post">
+                <div class="campo-formulario">
+                    <input type="text" name="nombre-apellido" id="nombre-apellido" placeholder="Nombre y apellido">
+                </div>
+                <div class="campo-formulario">
+                    <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario">
+                </div>
+                <div class="campo-formulario">
+                    <input type="text" name="email" id="email" placeholder="E-mail">
+                </div>
+            </form>
+        <h2>Fecha de nacimiento</h2>
+            <form action="#"  method="post">
+                <div class="campo-formulario">
+                    <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" placeholder="mm/dd/yyy">
+                </div>
+                <div class="campo-formulario">
+                    <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
+                </div>
+            </form>
+        <h2>Perfil del usuario</h2>
+            <form action="#"  method="post">
+                <div class="campo-formulario">
+                    <input type="radio" name="comprador" id="comprador" placeholder="Comprador"> Comprador
+                </div>
+                <div class="campo-formulario">
+                    <input type="radio" name="vendedor" id="vendedor" placeholder="Vendedor"> Vendedor
+                </div>
+            </form>
+        <h2>Intereses</h2>
+            <form action="#"  method="post">
+                <div class="campo-formulario">
+                    <input type="checkbox" name="electro" id="electro" placeholder="electro"> Electro
+                </div>
+                <div class="campo-formulario">
+                    <input type="checkbox" name="moda" id="moda" placeholder="Moda"> Moda
+                </div>
+                <div class="campo-formulario">
+                    <input type="checkbox" name="hogar" id="hogar" placeholder="Hogar"> Hogar
+                </div>
+                <div class="campo-formulario">
+                    <input type="checkbox" name="juguetería" id="juguetería" placeholder="Juguetería"> Juguetería
+                </div>
+                <div class="campo-formulario">
+                    <input type="checkbox" name="vida-sana" id="vida-sana" placeholder="VidaSana"> Vida Sana
+                </div>
+            </form>
+            
+</main>
+</body>
+</html>

@@ -77,6 +77,7 @@ h2{
     font-size:24px;
     width:100%;
     margin:10px;
+    background-color: var(--gris-claro);
 }
 
 div.burger-menu i{
@@ -209,6 +210,28 @@ h5 {
     font-weight: lighter;
 }
 
+/* ----------------------- REGISTER ----------------------------------- */
+
+label {
+    font-family: "Roboto";
+    font-size:12px;
+    width:100%;
+    margin:10px;
+    color: var(--gris-claro);
+}
+
+.campo-formulario {
+    margin: 10px;
+}
+
+input {
+    font-family: "Roboto";
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    border: 10px;
+    padding: 8px;
+}
 
 /* ----------------------- MEDIA QUERIS ----------------------------------- */
 
