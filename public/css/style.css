@@ -283,6 +283,21 @@ button.borrar {
     border-color: var(--gris-claro);
     width:100%;
 }
+
+input {
+    border: 1px solid var(--gris-oscuro)
+}
+
+input:invalid {
+    border: 1px solid rgba(255, 0, 0, 0.692);
+    background-color: #ffdddd
+}
+
+input:required {
+    border: 1px solid rgba(255, 0, 0, 0.692);
+    background-color: whitesmoke 
+}
+
 /* ----------------------- MEDIA QUERIS ----------------------------------- */
 
 /* TABLET */
