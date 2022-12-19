@@ -193,7 +193,9 @@ section.articulos{
 /* ----------------------- FOOTER ----------------------------------- */
 
 footer section {
+    font-family: "Roboto";
     text-align: center;
+    margin: 10px;
 }
 
 footer section div {
@@ -208,6 +210,7 @@ h5 {
     text-align: left;
     color: var(--gris-oscuro);
     font-weight: lighter;
+    font-family: "Roboto";
 }
 
 /* ----------------------- REGISTER ----------------------------------- */
@@ -222,6 +225,10 @@ label {
 
 .campo-formulario {
     margin: 10px;
+    text-align: justify;
+    padding-left:5px;
+    font-family: "Roboto";
+    font-size: 12px;
 }
 
 input {
@@ -233,6 +240,49 @@ input {
     padding: 8px;
 }
 
+h3 {
+    padding: 15px;
+    font-family: "Roboto";
+    font-size:14px;
+    text-align: left;
+}
+
+button.enviar {
+    font-family: "Roboto";
+    font-size:12px;
+    color: white;
+    background-color: var(--celeste);
+    border-radius: 5px;
+    padding: 10px;
+    border-color: var(--celeste);
+    width:70%;
+    margin:10px;
+}
+
+button.borrar {
+    font-family: "Roboto";
+    font-size:12px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: var(--gris-claro);
+    margin: 10px;
+}
+
+.foto-usuario {
+    width:25%;
+    margin:15px;
+}
+
+.agregar-foto {
+    font-family: "Roboto";
+    font-size:12px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding:5px;
+    border-color: var(--gris-claro);
+    width:100%;
+}
 /* ----------------------- MEDIA QUERIS ----------------------------------- */
 
 /* TABLET */

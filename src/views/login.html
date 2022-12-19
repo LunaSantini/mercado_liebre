@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+    <title>Ingresar</title>
     <link rel="stylesheet" href=/css/style.css>
     <!--Links de Google Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,71 +47,16 @@
         </nav>
     </header>
     <main>
-    <form action="register.html"  method="post">
-        
-        <h3>Creá tu cuenta</h3>
-            <div class="campo-formulario">
-                <input type="text" name="nombre-apellido" id="nombre-apellido" placeholder="Nombre y apellido">
-            </div>
-            <div class="campo-formulario">
-                <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario">
-            </div>
-            <div class="campo-formulario">
-                <input type="text" name="email" id="email" placeholder="E-mail">
-            </div>
-
-        <h3>Fecha de nacimiento</h3>
-            <div class="campo-formulario">
-                <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" placeholder="mm/dd/yyy">
-            </div>
-            <div class="campo-formulario">
-                <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
-            </div>
-
-        <h3>Perfil del usuario</h3>
-            <div class="campo-formulario">
-                <input type="radio" name="comprador-vendedor" id="comprador" placeholder="comprador"> Comprador
-                <label for="comprador"> Comprador </label>
-            </div>
-            <div class="campo-formulario">
-                <input type="radio" name="comprador-vendedor" id="vendedor" placeholder="vendedor"> Vendedor
-                <label for="vendedor"> Vendedor </label>
-            </div>
-
-        <h3>Intereses</h3>
-
-            <div class="campo-formulario">
-                <input type="checkbox" name="electro" id="electro" placeholder="electro"> Electro
-            </div>
-            <div class="campo-formulario">
-                <input type="checkbox" name="moda" id="moda" placeholder="Moda"> Moda
-            </div>
-            <div class="campo-formulario">
-                <input type="checkbox" name="hogar" id="hogar" placeholder="Hogar"> Hogar
-            </div>
-            <div class="campo-formulario">
-                <input type="checkbox" name="juguetería" id="juguetería" placeholder="Juguetería"> Juguetería
-            </div>
-            <div class="campo-formulario">
-                <input type="checkbox" name="vida-sana" id="vida-sana" placeholder="VidaSana"> Vida Sana
-            </div>
-
-        <h3>Otros datos</h3>
-            <div class="campo-formulario">
-                <input type="text" name="contraseña" id="contraseña" placeholder="Contraseña">
-            </div>
-            <div class="campo-formulario">
-                <input type="text" name="confirmar-constraseña" id="confirmar-constraseña" placeholder="Confirmar contraseña">
-            </div>
-        
-        <div class="foto-usuario">
-            <img src="/images/img-foto-usuario.jpg" alt=" Foto Usuario">
-            <button type="button" class="agregar-foto">Seleccionar Foto</button>
-        </div>
-
-        <button type="reset" class="borrar"> Borrar Datos </button>
-    </form>
-        <a href="/"><button type="submit" class="enviar"> Enviar </button></a>
+            <h3>Ingresá</h3>
+            <form action="login.html"  method="post">
+                <div class="campo-formulario">
+                    <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario">
+                </div>
+                <div class="campo-formulario">
+                    <input type="text" name="contraseña" id="contraseña" placeholder="Contraseña">
+                </div>
+            </form>
+            <a href="/"><button type="submit" class="enviar"> Enviar </button></a>
 </main>
 <footer>
     <section>
