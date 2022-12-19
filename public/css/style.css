@@ -122,7 +122,7 @@ div.truck i{
 }
 
 div.truck i:hover{
-    transform: rotateZ(90deg);
+    transform: rotateZ(-90deg);
 }
 
 .truck {
@@ -189,7 +189,7 @@ section.articulos{
     padding-top: 10px;
     padding-bottom:10px;
     box-sizing: border-box;
-    transition: all 450ms;
+    transition: display 450ms;
 }
 
 .descripciones:hover {
